@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkgreen;
+  font-family: "Poppins", sans-serif;
+}
+p{
+  font-size:1.2rem;
+}
+.hdrtxt {
+  border: 2.5rem solid rgb(112, 184, 2);
+  background-color: rgb(112, 184, 2);
+  text-align: center;
+  margin-left: -25rem;
+  color: white;
+}
+nav {
+  height: 100vh;
+  width: 17%;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  top: 0;
+  position: sticky;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+  background-color: rgb(112, 184, 2);
+}
+a {
+  position: absolute;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  margin-top:-10vh;
+}
+a:after {
+  content: "";
+  position: absolute;
+  background-color: #b6fc5c;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a:hover {
+  color: #ffffff;
+}
+a:hover:after {
+  width: 100%;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+h1 {
+  position: top;
+  padding-left: 35rem;
+}
+.tcrimg {
+  z-index: 12;
+  margin: 1rem 1rem;
+  position: absolute;
+  height: 15vh;
+  width: 15vw;
+}
+.h2tcr{
+  position:absolute;
+margin:-45rem 0rem 0rem 44vw;
+color:white;
+
+}
+.h3tcr{
+  position:absolute;
+  margin:-43rem 0rem 0rem 50vw;
+  color:white;
+}
+.whitepic{
+  position:absolute;
+  height:15vh;
+  width: 15vw;
+  z-index: 1;
+  margin:1rem;
+}
+.ph4{
+  color:white;
+  margin:-70vh 0 0 70vw;
+  padding-right: 5vw;
+}
+#imgout{
+  position:absolute;
+margin:-20vh 0 0 20vw;
+height: 45vh;
+width: 45vw;
+}
+.text1{
+  color:white;
+  margin:-5vh 0 0 -10vw ;
+  padding:30rem;
+}
+.imgpc{
+  position:absolute;
+  margin:-80vh 0 0 66rem;
+  width:25vw;
+  height:25vh;
+}

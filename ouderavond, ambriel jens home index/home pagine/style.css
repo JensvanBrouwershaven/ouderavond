@@ -115,3 +115,9 @@ width: 35vw;
   width:25vw;
   height:25vh;
 }
+ul{
+  list-style-type: none;
+}
+ul li {
+  margin-top: 1rem; 
+}

@@ -6,19 +6,25 @@
   box-sizing: border-box;
 }
 body {
-  background-color: white;
+  background-color: darkgreen;
   font-family: "Poppins", sans-serif;
 }
+p{
+  font-size:1.4rem;
+}
 .hdrtxt {
-  border: 3rem solid rgb(123, 206, 0);
-  background-color: rgb(123, 206, 0);
+  border: 2.5rem solid rgb(112, 184, 2);
+  background-color: rgb(112, 184, 2);
   text-align: center;
   margin-left: -25rem;
   color: white;
 }
+p{
+  color:white;
+}
 nav {
   height: 100vh;
-  width: 20%;
+  width: 17%;
   min-width: 200px;
   display: flex;
   align-items: center;
@@ -27,21 +33,22 @@ nav {
   position: sticky;
   padding-left: 1rem;
   flex-wrap: wrap;
-  background-color: rgb(123, 206, 0);
+  background-color: rgb(112, 184, 2);
 }
 a {
-  position: relative;
+  position: absolute;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.5px;
   padding: 0 10px;
+  margin-top:-10vh;
 }
 a:after {
   content: "";
   position: absolute;
-  background-color: #8abd48;
+  background-color: #b6fc5c;
   height: 3px;
   width: 0;
   left: 0;
@@ -65,8 +72,20 @@ h1 {
 }
 .tcrimg {
   z-index: 12;
-  margin: 0.3rem -1rem;
+  margin: 1rem 1rem;
   position: absolute;
-  height: 22vh;
-  width: 22vw;
+  height: 15vh;
+  width: 15vw;
+}
+.whitepic{
+  position:absolute;
+  height:15vh;
+  width: 15vw;
+  z-index: 1;
+  margin:1rem;
+}
+.p1{
+  z-index: 20000;
+  font-size:2rem;
+margin: 80rem 0 0 60vw;
 }

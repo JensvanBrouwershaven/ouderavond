@@ -13,7 +13,7 @@ p{
   font-size:1.4rem;
 }
 .hdrtxt {
-  border: 2.5rem solid rgb(112, 184, 2);
+  border: 3rem solid rgb(112, 184, 2);
   background-color: rgb(112, 184, 2);
   text-align: center;
   margin-left: -25rem;
@@ -95,3 +95,47 @@ ul{
   ul li {
     margin-top: 2.7rem; 
   }
+.column{
+    flex: 100%;
+    padding: 5px;  
+ size-adjust: 4%;
+}
+.row1 {
+
+  margin-left:337px;
+  position: relative;
+  margin-top: -950px;
+  justify-content: space-evenly;
+  display: flex; 
+}
+.row2 {
+ display: flex;
+  margin-left:337px;
+  position: relative;
+  margin-top: -520px;
+  justify-content: space-evenly;
+}
+.row3 {
+  margin-left:337px;
+  position: absolute;
+  margin-top: -90px;
+  justify-content: space-evenly;
+  display: flex; 
+}
+.row4{
+  margin-left:337px;
+  position: absolute;
+  margin-top: 340px;
+  justify-content: space-evenly;
+  display: flex; 
+
+
+}
+
+.location-card {
+  color: #fff;
+  display: flex;
+  height: 348px;
+  text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  width: 343px;
+}
